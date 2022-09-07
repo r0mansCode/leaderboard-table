@@ -1,10 +1,15 @@
 body {
   margin: 0;
-  background-image: url(../assets/images/02_TrollsBridge2_Background.svg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  padding: 0;
+  background-image: 
+  url(./assets/images/Top_Background.svg),
+  url(./assets/images/Character_Left.svg),
+  url(./assets/images/Character_Right.svg),
+  url(./assets/images/02_TrollsBridge2_Background.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top, left, right, center;
+    background-size: 100% auto, auto, auto, cover;
 }
 
 code {
