@@ -12,6 +12,20 @@ body {
     background-size: 100% auto, auto, auto, cover;
 }
 
+* {
+  font-family: 'Merriweather Sans';
+}
+
+@font-face {
+  font-family: AA BadaBoom BB;
+  src: url(./assets/fonts/AA\ BadaBoom\ BB\ Regular.ttf);
+}
+
+@font-face {
+  font-family: Merriweather Sans;
+  src: url(./assets/fonts/MerriweatherSans-Regular.ttf);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
