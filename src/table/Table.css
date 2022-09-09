@@ -1,0 +1,35 @@
+.tableContainer {
+    margin-bottom: 27px;
+}
+
+table {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0;
+    border-spacing: 0 !important;
+    border-collapse: collapse;
+    width: 828px;
+    /* width: 58.875em; */
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 105%;
+    /* or 13px */
+    text-align: center;
+    color: #393535;
+    border-radius: 10px;
+  }
+
+tr {
+    box-sizing: border-box;
+    height: 38px;
+    border-bottom: 1px solid black;
+}
+
+.tableFire {
+    position: absolute;
+    z-index: -1;
+    width: 828px;
+    transform: translateY(-70px);
+}

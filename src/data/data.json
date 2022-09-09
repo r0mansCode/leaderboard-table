@@ -1,0 +1,33 @@
+[
+    {
+      "place": 1,
+      "player": "Anja",
+      "score": "3.851",
+      "prize": "10000"
+    },
+    {
+      "place": 2,
+      "player": "Vasja",
+      "score": "3.753",
+      "prize": "9500€"
+    },
+    {
+      "place": 3,
+      "player": "Dima",
+      "score": "3.612",
+      "prize": "9000€"
+    },
+    {
+      "place": 4,
+      "player": "Kolja",
+      "score": "3.121",
+      "prize": "8000€"
+    },
+    {
+      "place": 5,
+      "player": "Pasha",
+      "score": "3.032",
+      "prize": "7000€"
+    }
+  ]
+  

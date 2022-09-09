@@ -2,6 +2,7 @@ import './App.css';
 import first_place from "./assets/images/first_place.svg"
 import second_place from "./assets/images/second_place.svg"
 import third_place from "./assets/images/third_place.svg"
+import { Table } from "./table/Table"
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         </div>
       </div>
       <div className='title title--table'>TOP WINNERS</div>
+      <Table />
     </div>
   );
 }
