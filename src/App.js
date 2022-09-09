@@ -15,17 +15,38 @@ function App() {
         Join now
       </div>
       <div className='winnerContainer'>
-        <div className='secondtPlace'>
-          <img src={second_place} />
+        <div className='Place_second'>
+          <img src={second_place}/>
+          <div className='winContainer winContainer--second'>
+            <div className='nickname nickname--second'>AP184***</div>
+            <div>BET</div>
+            <div className='secondFont'>€61</div>
+            <div className='yellow yellow--small'>WIN</div>
+            <div className='yellow'>€1852</div>
+          </div>
         </div>
-        <div className='firstPlace'>
+        <div className='Place_first'>
           <img src={first_place} />
-          <div></div>
+          <div className='winContainer winContainer--first'>
+          <div className='nickname nickname--first'>Kate***</div>
+            <div>BET</div>
+            <div className='secondFont'>€461</div>
+            <div className='yellow yellow--small'>WIN</div>
+            <div className='yellow'>€61852</div>
+          </div>
         </div>
-        <div className='thirdPlace'>
+        <div className='Place_third'>
           <img src={third_place} />
+          <div className='winContainer winContainer--third'>
+          <div className='nickname nickname--third'>Lig***</div>
+            <div>BET</div>
+            <div className='secondFont'>€12</div>
+            <div className='yellow yellow--first'>WIN</div>
+            <div className='yellow'>1000000 HUF</div>
+          </div>
         </div>
       </div>
+      <div className='title title--table'>TOP WINNERS</div>
     </div>
   );
 }
