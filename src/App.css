@@ -14,13 +14,18 @@
   font-family: 'AA BadaBoom BB';
   font-style: normal;
   font-weight: 400;
-  font-size: 70px; 
+  font-size: 4.375em; 
+  /* font-size: 70px;  */
+}
+
+.title--table {
+  font-size: 2.1875em;
 }
 
 .description {
   color: #FFFFFF;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 150%;
   text-align: center;
 }
@@ -63,9 +68,107 @@
 }
 
 .winnerContainer {
+  /* font-size: 0.5em; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: baseline;
   gap: 2.5em;
+}
+
+.yellow {
+  color: #FCC211;
+  font-size: 1.3125em;
+}
+
+.yellow--small{
+  font-size: 1em;
+}
+
+.secondFont{
+  font-size: 1.3125em;
+}
+
+div[class^=Place] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div[class^=Place] > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #05071A;
+  border-radius: 10px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: white;
+}
+
+.Place_first {
+  background: linear-gradient(180deg, rgba(48, 33, 67, 0) 0%, rgba(255, 184, 74, 0.3));
+  filter: drop-shadow(0px 0.3125em 0.9375em rgba(76, 62, 102, 0.15));
+  border-radius: 5px;
+}
+
+
+.winContainer--first {
+  width: 11.875em;
+  height: 8.75em;
+  border: 1px solid yellow;
+}
+
+
+.Place_second {
+  background: linear-gradient(180deg, rgba(48, 33, 67, 0) 0%, rgba(217, 208, 228, 0.3));
+  filter: drop-shadow(0px 0.3125em 0.9375em rgba(76, 62, 102, 0.15));
+  border-radius: 5px;
+}
+
+.winContainer--second {
+  width: 11.5em;
+  height: 8.875em;
+  border: 1px solid rgba(199, 199, 199, 1);
+}
+
+.Place_third {
+background: linear-gradient(180deg, rgba(48, 33, 67, 0) 0%, rgba(238, 202, 148, 0.3));
+filter: drop-shadow(0px 0.3125em 0.9375em rgba(76, 62, 102, 0.15));
+border-radius: 5px;
+}
+
+.winContainer--third {
+  width: 11.5em;
+  height: 8.875em;
+  border: 1px solid rgba(190, 141, 105, 1);
+}
+
+.nickname {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875em;
+  width: 6.5em;
+  height: 1.875em;
+  border-radius: 10px;
+  color: black !important;
+  font-weight: 400 !important;
+  transform: translate(50%, -4.4375em);
+}
+
+.nickname--first {
+  background-color: yellow !important;
+}
+
+.nickname--second {
+  background-color: rgba(199, 199, 199, 1) !important;
+}
+
+.nickname--third {
+  background-color: rgba(190, 141, 105, 1) !important;
 }
