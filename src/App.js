@@ -12,7 +12,7 @@ function App() {
         Have you ever dreamed of taking part in a tournament? <br />
         Galloping on a horse while holding a spear and trying to knock<br /> your enemy out of…
       </div>
-      <div className='joinButton'>
+      <div className='button'>
         Join now
       </div>
       <div className='winnerContainer'>
@@ -49,6 +49,9 @@ function App() {
       </div>
       <div className='title title--table'>TOP WINNERS</div>
       <Table />
+      <div className='button button--showResults'>
+        Show all results
+      </div>
     </div>
   );
 }

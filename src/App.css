@@ -32,19 +32,20 @@
   text-align: center;
 }
 
-.joinButton {
+.button {
   box-sizing: border-box;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 700;
   color: white;
   background: #E93E3A;
   width: 224px;
   height: 50px;
   border-radius: 15px;
 }
-.joinButton:after {
+.button:after {
   content: "";
   position: absolute;
   top: 0;
@@ -56,7 +57,7 @@
   transform: skewX(10deg);
   z-index: -1;
 }
-.joinButton:before {
+.button:before {
   content: "";
   position: absolute;
   top: 0;
@@ -67,6 +68,24 @@
   background: #E93E3A;
   transform: skewX(-10deg);
   z-index: -1;
+}
+
+.button--showResults {
+  background-color: #FFFFFF;
+  color: #05071A;
+  margin-bottom: 51px
+}
+
+.button--showResults:after {
+  content: "";
+  background-color: #FFFFFF;
+  right: 19px;
+}
+
+.button--showResults:before {
+  content: "";
+  background-color: #FFFFFF;
+  left: 19px;
 }
 
 .winnerContainer {
