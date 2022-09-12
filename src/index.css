@@ -19,7 +19,6 @@ body {
 
 * {
   font-family: "Merriweather Sans";
-  /* font-size: 0.95em; */
 }
 
 @font-face {
@@ -35,4 +34,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media only screen and (max-width: 850px) {
+  body {
+    background-position: bottom, top, left -150px center, right -150px center,
+      center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  * {
+    font-size: 0.95em;
+  }
+  body {
+    background-position: bottom, top, left -300px center, right -300px center,
+      center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    font-size: 0.88em;
+  }
 }

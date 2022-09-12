@@ -90,7 +90,6 @@
 }
 
 .winnerContainer {
-  /* font-size: 0.5em; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -192,7 +191,6 @@ div[class^="Place"] > div {
   z-index: -1;
   transform-origin: bottom;
   transform: skew(2deg, 0);
-  /* transform: rotate(3deg) skew(2deg, 0); */
   bottom: 0;
   right: 0.1em;
 }
@@ -208,12 +206,12 @@ div[class^="Place"] > div {
 .winContainer--first::after {
   content: " ";
   position: absolute;
-  width: 11em;
+  width: 10em;
   height: 8.75em;
   border: 1px solid yellow;
   border-left: none;
   background-color: #05071a;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0px;
   z-index: -1;
   transform-origin: bottom;
   transform: skew(-1.5deg, 0);
@@ -243,11 +241,12 @@ div[class^="Place"] > div {
 .winContainer--second::before {
   content: " ";
   position: absolute;
-  width: 6em;
+  width: 8em;
   height: 8.875em;
   border: 1px solid rgba(199, 199, 199, 1);
+  border-left: none;
   background-color: #05071a;
-  border-radius: 10px;
+  border-radius: 0 10px 10px 0;
   z-index: -1;
   transform-origin: right;
   transform: skew(0, 2deg);
@@ -258,17 +257,17 @@ div[class^="Place"] > div {
 .winContainer--second::after {
   content: " ";
   position: absolute;
-  width: 10.95em;
+  width: 10.75em;
   height: 8.875em;
   border: 1px solid rgba(199, 199, 199, 1);
   background-color: #05071a;
-  border-radius: 10px 0 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   border-right: none;
-  z-index: -1;
+  z-index: -2;
   transform-origin: right;
   transform: skew(3deg, 2deg);
   top: 0;
-  right: 0.3em;
+  left: 0;
 }
 
 .Place_third {
@@ -297,7 +296,8 @@ div[class^="Place"] > div {
   height: 8.875em;
   border: 1px solid rgba(190, 141, 105, 1);
   background-color: #05071a;
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
   z-index: -1;
   transform-origin: left;
   transform: skew(0, -2deg);
@@ -312,13 +312,13 @@ div[class^="Place"] > div {
   height: 8.875em;
   border: 1px solid rgba(190, 141, 105, 1);
   background-color: #05071a;
-  border-radius: 0 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
   border-left: none;
-  z-index: -1;
+  z-index: -2;
   transform-origin: left;
   transform: skew(-3deg, -2deg);
   top: 0;
-  left: 0.3em;
+  right: 0;
 }
 
 .nickname {
