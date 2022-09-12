@@ -1,18 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(./assets/images/Top_Background.svg),
+  background-image: linear-gradient(
+      180deg,
+      transparent 40%,
+      black 80%,
+      black 100%
+    ),
+    url(./assets/images/Top_Background.svg),
     url(./assets/images/Character_Left.png),
     url(./assets/images/Character_Right.png),
     url(./assets/images/02_TrollsBridge2_Background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top, left, right, center;
-  background-size: 100% auto, auto, auto, cover;
+  background-position: bottom, top, left, right, center;
+  background-size: auto, 100% auto, auto, auto, cover;
 }
 
 * {
   font-family: "Merriweather Sans";
+  /* font-size: 0.95em; */
 }
 
 @font-face {

@@ -4,11 +4,9 @@
 
 table {
   box-sizing: border-box;
-  /* background-color: white; */
   padding: 0;
   border-spacing: 0 1px !important;
   width: 828px;
-  /* width: 58.875em; */
   font-family: "Merriweather Sans";
   font-style: normal;
   font-weight: 400;
@@ -71,5 +69,5 @@ th {
   position: absolute;
   z-index: -1;
   width: 828px;
-  transform: translateY(-70px);
+  transform: translateY(-7.5em);
 }

@@ -155,7 +155,6 @@ div[class^="Place"] > div {
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  /* background-color: #05071a; */
   border-radius: 10px;
   text-align: center;
   font-style: normal;
@@ -350,4 +349,6 @@ div[class^="Place"] > div {
 
 img {
   margin-bottom: 1.687em;
+  width: 9.5em;
+  height: 12.25em;
 }

@@ -42,6 +42,7 @@ function App() {
             </div>
             <div className="yellow">€61852</div>
           </div>
+          ``
         </div>
         <div className="Place_third">
           <img src={third_place} />
