@@ -21,7 +21,11 @@ function App() {
             <div className="nickname nickname--second">AP184***</div>
             <div>BET</div>
             <div className="secondFont">€61</div>
-            <div className="yellow yellow--small">WIN</div>
+            <div className="yellow yellow--small">
+              <div className="decoration decoration--before" />
+              WIN
+              <div className="decoration decoration--after" />
+            </div>
             <div className="yellow">€1852</div>
           </div>
         </div>
@@ -31,7 +35,11 @@ function App() {
             <div className="nickname nickname--first">Kate***</div>
             <div>BET</div>
             <div className="secondFont">€461</div>
-            <div className="yellow yellow--small">WIN</div>
+            <div className="yellow yellow--small">
+              <div className="decoration decoration--before" />
+              WIN
+              <div className="decoration decoration--after" />
+            </div>
             <div className="yellow">€61852</div>
           </div>
         </div>
@@ -41,7 +49,11 @@ function App() {
             <div className="nickname nickname--third">Lig***</div>
             <div>BET</div>
             <div className="secondFont">€12</div>
-            <div className="yellow yellow--first">WIN</div>
+            <div className="yellow yellow--small">
+              <div className="decoration decoration--before" />
+              WIN
+              <div className="decoration decoration--after" />
+            </div>
             <div className="yellow">1000000 HUF</div>
           </div>
         </div>
